@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     // device sensor manager
     private SensorManager mSensorManager;
 
-    TextView tvHeading;
+
 
 
     @Override
@@ -30,8 +30,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         setContentView(R.layout.activity_main);
         image = (ImageView) findViewById(R.id.imageViewCompass);
 
-        // TextView that will tell the user what degree is he heading
-        tvHeading = (TextView) findViewById(R.id.tvHeading);
+
 
         // initialize your android device sensor capabilities
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
